@@ -2,6 +2,7 @@
   --light-blue: #6fbaf8;
   --light-white: #f7f9fc;
   --white-color: white;
+  --light-grey: lightgrey;
 
   --font-large: 30px;
   --font-medium: 16px;
@@ -46,4 +47,15 @@ i {
 .profile-text p {
   font-size: var(--font-medium);
   margin-bottom: 8px;
+}
+
+.left-line {
+  font-size: var(--font-medium);
+  text-align: center;
+  color: #6fbaf8;
+  border-bottom: 3px solid var(--light-blue);
+}
+
+.right-line {
+  border-bottom: 3px solid var(--light-grey);
 }
