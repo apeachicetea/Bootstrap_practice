@@ -113,3 +113,12 @@ a {
 .friends-list {
   font-size: 10px;
 }
+
+/* 1.사진쪽 박스에 마진 바텀 주기
+2.work, about, skill 박스에 각각 마진 바텀주기
+3.Work 패딩 레프트 어떻게 하지?
+4.인근 추천 친구 창이줄어들때 어떻게 삭제?
+(클래스에 md이하 창크기일때 display: none; ??) */
+
+
+
