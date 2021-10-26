@@ -1,24 +1,49 @@
+:root {
+  --light-blue: #6fbaf8;
+  --light-white: #f7f9fc;
+  --white-color: white;
+
+  --font-large: 30px;
+  --font-medium: 16px;
+  --font-small: 13px;
+  --font-micro: 10px;
+
+}
+
 body {
-  background: #f7f9fc;
-}
-
-.white-box {
-  background-color: white;
-  padding: 20px;
-  margin-top: 30px;
-  border-radius: 5px;
-  box-shadow: 0.5px 0.5px 2px 1px #eee;
-}
-
-.white-box h3, p {
-  margin-bottom: 5px;
+  background-color: var(--light-white);
+  font-family: 'Noto Serif Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 i {
-  color: #6fbaf8 ;
+  color: var(--light-blue);
+}
+
+.btn {
+  padding: 5px 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  background-color: var(--light-blue);
+  border: none;
+}
+
+.white-box {
+  padding: 40px;
+  background-color: var(--white-color);
 }
 
 .right-box {
-  padding: 10px 40px;
-  border-left: 1px solid lightgrey;
+  border-left: 2px solid lightgrey;
+}
+
+.profile-text h2 {
+  font-size: var(--font-large);
+  margin-bottom: 10px;
+}
+
+.profile-text p {
+  font-size: var(--font-medium);
+  margin-bottom: 8px;
 }
